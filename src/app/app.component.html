@@ -2,6 +2,12 @@
   <input type = "text">
   {{ message }}
 </div>
+
+<div>
+  <input type="text" [value]="message">
+  {{ message }}
+</div>
+
 <div>
   <input type = "text" [(ngModel)] = "message">
   {{ message }}
